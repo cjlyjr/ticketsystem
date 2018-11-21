@@ -13,7 +13,7 @@ What should to do after you download the program?
 3.  If you are a linux user: give promission to ticketsystem/storage and bootstrap/catch.
 
 
-4. if you want to send image or video at rich text, you need to set  vhost at your windows or linux, for example: my Vhost is 
+4. if you want to send image or video at rich text or see upload files , you need to set  vhost at your windows or linux, for example: my Vhost is 
 
 www.ticketsystem.com
 
