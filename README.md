@@ -4,7 +4,9 @@ This is a ticket system to report bugs in a e-commerce website and the framework
 What should to do after you download the program?  
 
 
-1. Check .env files, enter right mysql database name, change MAIL_HOST to yourself information.
+1. Check .env files, enter right mysql database name, .env default database name is ticketsystem.
+
+    change MAIL_HOST to yourself information.
 
 
 2. php artisan migrate at your terminal, if still have some problem about mysql database,please check the below description.
