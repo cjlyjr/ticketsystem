@@ -3,13 +3,17 @@ This is a ticket system to report bugs in a e-commerce website
 
 What should to do after you download the program?  
 
-If you are a linux user:
 
-1. php artisan migrate at your terminal, if still have some problem about mysql database,please check the below description.
+1.Check .env files, enter right mysql database name, change MAIL_HOST to yourself information.
 
-2. give promission to ticketsystem/storage and bootstrap/catch.
 
-3. if you want to send image or video at rich text, you need to set  vhost at your windows or linux, for example: my Vhost is 
+2. php artisan migrate at your terminal, if still have some problem about mysql database,please check the below description.
+  
+  If you are a linux user:
+  
+3. give promission to ticketsystem/storage and bootstrap/catch.
+
+4. if you want to send image or video at rich text, you need to set  vhost at your windows or linux, for example: my Vhost is 
 
 www.ticketsystem.com
 
