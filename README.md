@@ -24,7 +24,7 @@ How to use this program?
 
 2. if you are a user,you need to register and login, then create new  and update and delete ticket 
 
-3.or you can according below list to build your mysql database and tables.
+3. or you can according below list to build your mysql database and tables.
 
 
 
