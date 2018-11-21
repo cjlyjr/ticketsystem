@@ -11,12 +11,12 @@ CKEDITOR.editorConfig = function( config ) {
 	
 	config.uiColor = '#AADC6E';
 	
-	config.filebrowserBrowseUrl = '/templateEditor/kcfinder/browse.php?opener=ckeditor&type=files';
-    config.filebrowserImageBrowseUrl ='/templateEditor/kcfinder/browse.php?opener=ckeditor&type=images';
+	config.filebrowserBrowseUrl = './templateEditor/kcfinder/browse.php?opener=ckeditor&type=files';
+    config.filebrowserImageBrowseUrl ='./templateEditor/kcfinder/browse.php?opener=ckeditor&type=images';
 	
-	config.filebrowserFlashBrowseUrl = '/templateEditor/kcfinder/browse.php?opener=ckeditor&type=flash';
-    config.filebrowserUploadUrl = '/templateEditor/kcfinder/upload.php?opener=ckeditor&type=files';
-    config.filebrowserImageUploadUrl ='/templateEditor/kcfinder/upload.php?opener=ckeditor&type=images';
-	config.filebrowserFlashUploadUrl = '/templateEditor/kcfinder/upload.php?opener=ckeditor&type=flash';
+	config.filebrowserFlashBrowseUrl = './templateEditor/kcfinder/browse.php?opener=ckeditor&type=flash';
+    config.filebrowserUploadUrl = './templateEditor/kcfinder/upload.php?opener=ckeditor&type=files';
+    config.filebrowserImageUploadUrl ='./templateEditor/kcfinder/upload.php?opener=ckeditor&type=images';
+	config.filebrowserFlashUploadUrl = './templateEditor/kcfinder/upload.php?opener=ckeditor&type=flash';
 	config.filebrowserUploadMethod = 'form';
 };
