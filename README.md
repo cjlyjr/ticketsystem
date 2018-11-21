@@ -11,7 +11,8 @@ This is a ticket system to report bugs in a e-commerce website
 3. when you download the ticket-system program, you need to check your env. connect to your mysql datebase. 
    my database name is ticketsystem, i use phpMyAdmin.
 4. you need to check the below description to create your table.
-5.if you use php artisan migrate,then need to check userposts table structure.
+
+5. if you use php artisan migrate,then need to check userposts table structure.
 
     ticketreply MEDIUMTEXT COLLATE utf8mb4_unicode_ci NULL DEFAULT NULL,
     fileimg VARCHAR(191) COLLATE utf8mb4_unicode_ci NULL DEFAULT NULL
