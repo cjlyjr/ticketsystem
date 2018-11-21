@@ -17,7 +17,8 @@ class CreateUserpostsTable extends Migration
             $table->increments('id');
             $table->string('title');
             $table->mediumText('ticketcontent');
-            $table->mediumText('ticketreply');
+           $table->mediumText('ticketreply')->nullable();
+            $table->string('fileimg')->nullable();
             $table->timestamps();
         });
     }
