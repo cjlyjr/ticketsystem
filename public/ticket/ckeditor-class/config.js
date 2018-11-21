@@ -30,13 +30,13 @@
 		{
 			config.uiColor = '#AADC6E';
 	
-	config.filebrowserBrowseUrl = '/ticket/kcfinder-class/browse.php?opener=ckeditor&type=files';
-    config.filebrowserImageBrowseUrl ='/ticket/kcfinder-class/browse.php?opener=ckeditor&type=images';
+	config.filebrowserBrowseUrl = './ticket/kcfinder-class/browse.php?opener=ckeditor&type=files';
+    config.filebrowserImageBrowseUrl ='./ticket/kcfinder-class/browse.php?opener=ckeditor&type=images';
 	
-	config.filebrowserFlashBrowseUrl = '/ticket/kcfinder-class/browse.php?opener=ckeditor&type=flash';
-    config.filebrowserUploadUrl = '/ticket/kcfinder-class/upload.php?opener=ckeditor&type=files';
-    config.filebrowserImageUploadUrl ='/ticket/kcfinder-class/upload.php?opener=ckeditor&type=images';
-	config.filebrowserFlashUploadUrl = '/ticket/kcfinder-class/upload.php?opener=ckeditor&type=flash';
+	config.filebrowserFlashBrowseUrl = './ticket/kcfinder-class/browse.php?opener=ckeditor&type=flash';
+    config.filebrowserUploadUrl = './ticket/kcfinder-class/upload.php?opener=ckeditor&type=files';
+    config.filebrowserImageUploadUrl ='./ticket/kcfinder-class/upload.php?opener=ckeditor&type=images';
+	config.filebrowserFlashUploadUrl = './ticket/kcfinder-class/upload.php?opener=ckeditor&type=flash';
 	config.filebrowserUploadMethod = 'form';
 		  config.toolbar = 'MyToolbar'
 
