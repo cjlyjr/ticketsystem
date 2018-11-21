@@ -17,7 +17,7 @@
            <div class="distance"><small>Ticket post on {{$post->created_at}} by  {{$post->user->name}}</small></div>
            <div>
               <?php 
-              $fxls ='storage/uploadfiles/'.$post->fileimg;
+              $fxls ='uploadfiles/'.$post->fileimg;
                $ext=pathinfo($post->fileimg, PATHINFO_EXTENSION);
               if(!empty($ext))
               {
