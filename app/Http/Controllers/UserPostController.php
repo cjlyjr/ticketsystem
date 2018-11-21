@@ -124,7 +124,7 @@ class UserPostController extends Controller
                      $fileNameToStore=$filename.'_'.time().'.'.$extension;
                      //Upload Image to file
                      //$path=$request->file('fileimg')->storeAs('public/uploadfiles',$fileNameToStore);
-                     $request->file('fileimg')->move('storage/uploadfiles',$fileNameToStore);
+                     $request->file('fileimg')->move('uploadfiles',$fileNameToStore);
                      
                    
                   
@@ -268,7 +268,7 @@ class UserPostController extends Controller
                    $fileNameToStore=$filename.'_'.time().'.'.$extension;
                    //Upload Image to file
                   // $path=$request->file('fileimg')->storeAs('public/uploadfiles',$fileNameToStore);
-                   $request->file('fileimg')->move('storage/uploadfiles',$fileNameToStore);
+                   $request->file('fileimg')->move('uploadfiles',$fileNameToStore);
               
                 
    
