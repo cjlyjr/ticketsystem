@@ -1,21 +1,29 @@
 # ticketsystem
 This is a ticket system to report bugs in a e-commerce website
 
+What should to do after you download the program?  
 
+If you are a linux user:
+
+1. php artisan migrate at your terminal, if still have some problem about mysql database,please check the below description.
+
+2. give promission to ticketsystem/storage and bootstrap/catch.
+
+3. if you want to send image or video at rich text, you need to set  vhost at your windows or linux, for example: my Vhost is 
+
+www.ticketsystem.com
+
+
+How to use this program?
 
 1. if you are a ticket's author,just click Ticket list and reply 
 
 2. if you are a user,you need to register and login, then create new  and update and delete ticket 
 
+3.or you can according below list to build your mysql database and tables.
 
-3. when you download the ticket-system program, you need to check your env. connect to your mysql datebase. 
-   my database name is ticketsystem, i use phpMyAdmin.
-4. you need to check the below description to create your table.
 
-5. if you use php artisan migrate,then need to check userposts table structure.
 
-    ticketreply MEDIUMTEXT COLLATE utf8mb4_unicode_ci NULL DEFAULT NULL,
-    fileimg VARCHAR(191) COLLATE utf8mb4_unicode_ci NULL DEFAULT NULL
 
 ---------------------------------------------------------------------------
  
