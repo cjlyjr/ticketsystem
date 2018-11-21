@@ -72,7 +72,7 @@ class UserPostController extends Controller
          { 
             //dd($ex->getMessage()); 
             // Note any method of class PDOException can be called on $ex.
-            echo $ex->getMessage();
+            echo "please check README.md file,ensure your database connect or is right";
           }
         
     }
@@ -149,7 +149,7 @@ class UserPostController extends Controller
          { 
             //dd($ex->getMessage()); 
             // Note any method of class PDOException can be called on $ex.
-            echo $ex->getMessage();
+            echo "please check README.md file,ensure your database connect or is right";
           }
 
     }
@@ -183,7 +183,7 @@ class UserPostController extends Controller
          { 
             //dd($ex->getMessage()); 
             // Note any method of class PDOException can be called on $ex.
-            echo $ex->getMessage();
+            echo "please check README.md file,ensure your database connect or is right";
           }
         
     
@@ -220,7 +220,7 @@ class UserPostController extends Controller
         { 
            //dd($ex->getMessage()); 
            // Note any method of class PDOException can be called on $ex.
-           echo $ex->getMessage();
+           echo "please check README.md file,ensure your database connect or is right";
          }
         
         
@@ -315,7 +315,7 @@ class UserPostController extends Controller
     { 
        //dd($ex->getMessage()); 
        // Note any method of class PDOException can be called on $ex.
-       echo $ex->getMessage();
+       echo "please check README.md file,ensure your database connect or is right";
      }
 
        
@@ -352,7 +352,7 @@ class UserPostController extends Controller
          { 
             //dd($ex->getMessage()); 
             // Note any method of class PDOException can be called on $ex.
-            echo $ex->getMessage();
+            echo "please check README.md file,ensure your database connect or is right";
           }
        
     }
@@ -393,7 +393,7 @@ class UserPostController extends Controller
          { 
             //dd($ex->getMessage()); 
             // Note any method of class PDOException can be called on $ex.
-            echo $ex->getMessage();
+            echo "please check README.md file,ensure your database connect or is right";
           }
     }
 
@@ -435,7 +435,7 @@ class UserPostController extends Controller
          { 
             //dd($ex->getMessage()); 
             // Note any method of class PDOException can be called on $ex.
-            echo $ex->getMessage();
+           echo "please check README.md file,ensure your database connect or is right";
           }
     }
      /***********add array */
@@ -494,7 +494,7 @@ class UserPostController extends Controller
          { 
             //dd($ex->getMessage()); 
             // Note any method of class PDOException can be called on $ex.
-            echo $ex->getMessage();
+            echo "please check README.md file,ensure your database connect or is right";
           }
 }
    
