@@ -1,0 +1,88 @@
+.navbar-laravel
+{
+    background-color:#AADC6E;
+    color:#fff;
+}
+/*******ticketpost-index begin**********/
+
+.replycolor
+{
+    background-color: #f6f6f6;
+    
+    margin:1em;
+    font-size:1.4em;
+}
+.replycolor img
+{
+    width: 50px;
+    height:50px;
+}
+
+#replytd
+{
+    padding:2em;
+}
+.noreply
+{
+  color:burlywood;
+  font-size:1.4em
+}
+.distance
+{
+    margin-bottom:1em;
+}
+/*******ticketpost-index end**********/
+/*********reply begin*************/
+.useranswer
+{
+    background-color:#AADC6E;
+}
+/***********reply end***************/
+.replyli img,video
+{
+    max-width:200px;
+    max-height:200px;
+}
+/*********show begin*************/
+
+.ulstyle li img,video
+{
+    max-width:200px;
+    max-height:200px;
+}
+.tcontent img,video
+{
+    max-width:200px;
+    max-height:200px;
+}
+/***********show end***************/
+/**********index begin************/
+.pdf span
+{
+    border:2px solid solid;
+    background-color:rgb(117, 139, 117);
+    color:#fff;
+}
+.patt span
+{
+    border:2px solid solid;
+    background-color:rgb(117, 139, 117);
+    color:#fff;
+
+}
+.attachement
+{
+    background-color:rgb(117, 139, 117);
+    display:none;
+}
+.attachement video{
+    width: 100%;
+    -webkit-transition: transform 0.9s ease;
+    -o-transition: transform 0.9s ease;
+    -moz-transition: transform 0.9s ease;
+    transition: transform 0.9s ease;
+  height:auto;
+  }
+  
+  
+/**********index end***************/
