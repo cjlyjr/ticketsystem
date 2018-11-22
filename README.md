@@ -12,14 +12,14 @@ What should to do after you download the program?
 2. php artisan migrate at your terminal, if still have some problem about mysql database,please check the below description.
   
 
-3.  If you are a linux user: give promission to the below list
+3.  If you are a linux user: check promission about the below list
     ticketsystem/storage, 
     ticketsystem/public/templateEditor,
     ticketsystem/public/ticket,
     ticketsystem/public/replyeditor
     bootstrap/catch.    
     
-     such as:chmod -R 777 templateEditor.
+     
 
 4. if you want to send image or video at rich text, you need to set  Vhost at your windows or linux, for example: my Vhost is 
 
