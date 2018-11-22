@@ -18,6 +18,8 @@
            <div>
               <?php 
               $fxls ='uploadfiles/'.$post->fileimg;
+             if(file_exists($fxls))
+              {
                $ext=pathinfo($post->fileimg, PATHINFO_EXTENSION);
               if(!empty($ext))
               {
@@ -125,7 +127,7 @@
               echo '</li>';
               
               echo '</ul>';
-             
+             }
              }
              ?>
   
