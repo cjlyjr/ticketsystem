@@ -1,4 +1,4 @@
-@extends('layouts.appticket')
+@extends('layouts.app')
 @section('content')
   
       <h3>Ticket List</h3>
