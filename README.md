@@ -12,7 +12,7 @@ What should to do after you download the program?
 2. php artisan migrate at your terminal, if still have some problem about mysql database,please check the below description.
   
 
-3.  If you are a linux user: check promission about the below list
+3.  If you are a linux user: check promission about the below list:
     ticketsystem/storage, 
     ticketsystem/public/templateEditor,
     ticketsystem/public/ticket,
