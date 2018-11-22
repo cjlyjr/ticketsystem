@@ -13,9 +13,13 @@ What should to do after you download the program?
   
 
 3.  If you are a linux user: check promission about the below list:
+    
+    
     ticketsystem/storage, 
+    ticketsystem/public/uploadfiles,
     ticketsystem/public/templateEditor,
     ticketsystem/public/ticket,
+    
     ticketsystem/public/replyeditor
     bootstrap/catch.    
     
