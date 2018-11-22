@@ -20,7 +20,7 @@ What should to do after you download the program?
     ticketsystem/public/templateEditor,
     ticketsystem/public/ticket,
     
-    ticketsystem/public/replyeditor
+    ticketsystem/public/replyeditor,
     bootstrap/catch.    
     
      
